@@ -1,10 +1,10 @@
 #!/bin/bash
 #echo " Linux Mint"
 #echo " Debian"
-#echo " Ubuntu"
+echo "Calculate"
 
-STATUS=$(cat /sys/class/power_supply/BAT?/status)
-LEVEL=$(cat /sys/class/power_supply/BAT?/capacity)
+#STATUS=$(cat /sys/class/power_supply/BAT?/status)
+#LEVEL=$(cat /sys/class/power_supply/BAT?/capacity)
 
 if [[ "$LEVEL" -lt "20" ]]; then
 	if [[ "$STATUS" == "Discharging" ]]; then
