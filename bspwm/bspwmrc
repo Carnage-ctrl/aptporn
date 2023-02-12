@@ -36,3 +36,5 @@ setxkbmap -model abnt2 -layout br -variant abnt2
 dunst &
 compton &
 #mytask &
+
+feh --bg-scale '/home/.wallpaper.jpg'
