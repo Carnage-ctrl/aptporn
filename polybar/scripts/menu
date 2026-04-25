@@ -1,7 +1,6 @@
 #!/bin/bash
 #echo " Linux Mint"
 #echo " Debian"
-echo "Calculate"
 
 #STATUS=$(cat /sys/class/power_supply/BAT?/status)
 #LEVEL=$(cat /sys/class/power_supply/BAT?/capacity)
