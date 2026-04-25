@@ -39,4 +39,4 @@ dunst &
 compton &
 #mytask &
 
-feh --bg-scale '/home/.wallpaper.jpg'
+feh --bg-scale '/home/newman/wallpaper.jpg'
